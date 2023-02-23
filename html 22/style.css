@@ -1,0 +1,7 @@
+p {
+    display: block;
+    padding: 25px 25px 0;
+    min-width: 50% !important;
+    max-height: 100px;
+    overflow: auto;
+}
