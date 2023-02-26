@@ -1,0 +1,15 @@
+.block {
+    border: 5px solid #000000;
+    width: 1000px;
+    height: 150px;
+    margin: 50px auto;
+
+    /* transition: border 3s 2s; */
+    transition-property: border;
+    transition-duration: 3s;
+    transition-delay: 2s;
+}
+
+.block:hover {
+    border: 5px solid  #008000;
+}
