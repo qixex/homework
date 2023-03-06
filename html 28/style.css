@@ -1,0 +1,16 @@
+.flexbox {
+    background-color: chocolate;
+    border: 3px solid chocolate;
+    width: 800px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block {
+    background-color: darkgoldenrod;
+    border: 3px solid chocolate;
+    height: 100px;
+    width: 100px;
+}
