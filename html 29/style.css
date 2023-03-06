@@ -1,0 +1,4 @@
+.grid {
+    display: grid;
+    grid-template: auto auto / repeat(2, auto) minmax(100px, 200px) repeat(2, auto);
+}
