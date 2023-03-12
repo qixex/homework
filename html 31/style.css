@@ -1,0 +1,26 @@
+.title {
+    position: relative;
+    margin-right: 10px;
+    left: 10px;
+}
+.title::after {
+    content: "a";
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    color: #ff0000;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+.title::before {
+    content: "a";
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    color: #0000ff;
+    position: absolute;
+    display: inline-block;
+    margin: 0 -10px;
+    text-align: center;
+}
